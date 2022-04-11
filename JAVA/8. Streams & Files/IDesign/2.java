@@ -4,8 +4,9 @@ import java.io.*;
 import java.util.ArrayList;
 
 public class Main {
+    @SuppressWarnings("unchecked")
 	public static void main(String args[]) throws Exception {
-	  BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Enter the number of users:");
         int n = Integer.parseInt(br.readLine());
         ArrayList users = new ArrayList<>();
